@@ -5,26 +5,26 @@ This project is a rudimentary database engine that is loosely based on a hybrid 
 Supported Commands:
  
 1) Show tables;
-	Displays all the tables in the database.
+	- Displays all the tables in the database.
 2) create table table_name (id int primary key, name text not null);
-	Creates a new table with the given attributes and constraints.
+	- Creates a new table with the given attributes and constraints.
 3) insert into table_name (id, name) values (value, value); OR insert into table_name values (value, value);
-	Insert a new row in the table.
+	- Insert a new row in the table.
 4) select * from table_name;
-	Displays all the rows in the given table.
+	- Displays all the rows in the given table.
 5) select * from table_name where id = value; 
-	Displays record whose id is matched to the value.
-	Operators supported for integer are: =, >, >=, <, <=, !=
+	- Displays record whose id is matched to the value.
+	- Operators supported for integer are: =, >, >=, <, <=, !=
 6) select column_name from table_name where id = value;
-	Displays specific column of the record whose id is matched to the value.
+	- Displays specific column of the record whose id is matched to the value.
 7) update table_name set column_name=value where id= value;
-	Update the specific column of the table whose record has a id equal to the value.
+	- Update the specific column of the table whose record has a id equal to the value.
 8) delete from table table_name where id= value;
-	Deletes the record whose id is matched to the value.
+	- Deletes the record whose id is matched to the value.
 9) drop table table_name;
-	Drops the entire table.
+	- Drops the entire table.
 10) help;
-	Displays the valid commands list.
+	- Displays the valid commands list.
 
 How to Execute:
 1) Copy the files InitPrompt and ErrorMessage in your folder.
